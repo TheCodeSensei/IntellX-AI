@@ -79,17 +79,19 @@ const LandingPage = () => {
                 <div className="hero-content">
                     <div className="hero-badge">
                         <Sparkles className="h-4 w-4" />
-                        <span>AI-Powered Solutions</span>
+                        <span>IntellX, AI-Powered Solutions</span>
                     </div>
-                    <h1 className="hero-title">{mockData.hero.title}</h1>
-                    <p className="hero-subtitle">{mockData.hero.subtitle}</p>
+                    {/* <h1 className="hero-title">{mockData.hero1.title}</h1>
+                    <p className="hero-subtitle">{mockData.hero1.subtitle}</p> */}
+                    <h1 className="hero-title">{mockData.hero2.title}</h1>
+                    <p className="hero-subtitle">{mockData.hero2.subtitle}</p>
                     <div className="hero-cta-group">
                         <button
                             size="lg"
                             className="hero-cta primary"
                             onClick={() => scrollToSection('contact')}
                         >
-                            {mockData.hero.cta}
+                            {mockData.hero1.cta}
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </button>
                         <button
